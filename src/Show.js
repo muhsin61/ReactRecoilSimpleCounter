@@ -5,10 +5,10 @@ import {useRecoilValue} from "recoil";
 
 function App() {
 
-  const counter = useRecoilValue(simpleCounter);
+  const counter = useRecoilValue(simpleCounter);//Only get value. it can't change.
   return (
     <div className="App">
-      <h1>deneme</h1>
+      <h1>Simple Counter With Recoil</h1>
       <p>{counter}</p>
     </div>
   );

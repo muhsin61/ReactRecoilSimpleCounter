@@ -12,6 +12,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+p{
+  font-size: 30px;
+  font-weight: bold;
+}
+button{
+  background: none;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  border: #61dafb 2px solid;
+  color: #61dafb;
+  font-size: 25px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
 
 .App-header {
   background-color: #282c34;

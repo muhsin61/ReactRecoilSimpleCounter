@@ -1,13 +1,13 @@
 import React from "react";
-import {simpleCounter} from "./Atoms"
-import {useRecoilState} from "recoil"
+import './App.css';
+import { simpleCounter } from "./Atoms"
+import { useRecoilState } from "recoil"
 
-export default function(){
-    const [sayi,setSayi] = useRecoilState(simpleCounter)
-    return(
+export default function () {
+    const [number, setNumber] = useRecoilState(simpleCounter)
+    return (
         <div>
-            <h1>naber</h1>
-            <p>{sayi}</p>
+            <button onClick={() => setNumber(number + 1)}>Increase</button>
         </div>
     )
 }
