@@ -24,6 +24,7 @@ button{
   border: #61dafb 2px solid;
   color: #61dafb;
   font-size: 25px;
+  margin: 5px;
 }
 .buttons{
   display: flex;
